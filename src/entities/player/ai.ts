@@ -11,11 +11,11 @@ export const generateTeam = ( opponentRoster: Pokemon[],
                               previousResult: boolean, /* true = Win */
                               previousTeams: Pokemon[][]
                             ): PokemonTeam => {
-  return undefined
+  return undefined!
 }
 
 export const calculateAverageRosterPerformance = ( userTeam: PokemonTeam,
                                                    opponentTeam: PokemonTeam
                                                  ): RosterPerformance[] => {
-  return undefined
+  return undefined!
 }
